@@ -1,0 +1,310 @@
+{
+  "coffee": [
+    {
+      "name": "Espresso",
+      "description": "Kopi hitam pekat dengan rasa kuat, disajikan dalam cangkir kecil.",
+      "price": 30,
+      "image": "espresso.webp"
+    },
+    {
+      "name": "Americano",
+      "description": "Espresso yang ditambahkan air panas, menghasilkan kopi hitam dengan rasa lebih ringan.",
+      "price": 35,
+      "image": "americano.webp"
+    },
+    {
+      "name": "Cappuccino",
+      "description": "Espresso dengan campuran susu panas dan busa susu di atasnya, memiliki tekstur lembut.",
+      "price": 45,
+      "image": "cappuccino.webp"
+    },
+    {
+      "name": "Latte",
+      "description": "Espresso dengan lebih banyak susu, sering dihias dengan latte art.",
+      "price": 50,
+      "image": "latte.webp"
+    },
+    {
+      "name": "Macchiato",
+      "description": "Espresso dengan sedikit busa susu, kaya rasa.",
+      "price": 45,
+      "image": "macchiato.webp"
+    },
+    {
+      "name": "Mocha",
+      "description": "Campuran espresso, cokelat, dan susu, dengan rasa manis dan sedikit pahit.",
+      "price": 60,
+      "image": "mocha.webp"
+    },
+    {
+      "name": "Cold Brew",
+      "description": "Kopi yang diseduh dalam air dingin selama beberapa jam, seringkali disajikan dengan es.",
+      "price": 60,
+      "image": "cold-brew.webp"
+    },
+    {
+      "name": "Iced Coffee",
+      "description": "Kopi hitam yang disajikan dingin, sering kali dengan tambahan sirup rasa.",
+      "price": 45,
+      "image": "iced-coffee.webp"
+    }
+  ],
+  "non_coffee": [
+    {
+      "name": "Teh",
+      "description": "Pilihan teh panas atau dingin, bisa berupa teh hitam, hijau, atau herbal.",
+      "price": 30,
+      "image": "tea.webp"
+    },
+    {
+      "name": "Matcha Latte",
+      "description": "Teh hijau bubuk dicampur dengan susu, kaya akan rasa matcha.",
+      "price": 60,
+      "image": "matcha-latte.webp"
+    },
+    {
+      "name": "Chai Latte",
+      "description": "Teh berbumbu khas India dicampur susu, dengan aroma dan rasa rempah.",
+      "price": 50,
+      "image": "chai.webp"
+    },
+    {
+      "name": "Smoothies",
+      "description": "Minuman segar berbahan buah dan yoghurt, kadang ditambah protein atau sayuran.",
+      "price": 75,
+      "image": "smoothie.webp"
+    },
+    {
+      "name": "Soda",
+      "description": "Minuman soda berperisa untuk pilihan yang segar dan manis.",
+      "price": 60,
+      "image": "soda.webp"
+    },
+    {
+      "name": "Mocktail",
+      "description": "Minuman soda berperisa untuk pilihan yang segar dan manis.",
+      "price": 60,
+      "image": "mocktail.webp"
+    }
+  ],
+  "light_dish": [
+    {
+      "name": "Croissant",
+      "description": "Pastry ringan yang cocok sebagai pendamping kopi.",
+      "price": 30,
+      "image": "croissant.webp"
+    },
+    {
+      "name": "Scone",
+      "description": "Pastry ringan yang cocok sebagai pendamping kopi.",
+      "price": 30,
+      "image": "scone.webp"
+    },
+    {
+      "name": "Cheesecake",
+      "description": "Kue manis dengan tekstur lembut, sering kali jadi favorit pencuci mulut.",
+      "price": 60,
+      "image": "cheesecake.webp"
+    },
+    {
+      "name": "Brownies",
+      "description": "Kue manis dengan tekstur lembut, sering kali jadi favorit pencuci mulut.",
+      "price": 60,
+      "image": "brownies.webp"
+    },
+    {
+      "name": "Tiramisu",
+      "description": "Kue manis dengan tekstur lembut, sering kali jadi favorit pencuci mulut.",
+      "price": 60,
+      "image": "tiramisu.webp"
+    },
+    {
+      "name": "Cookies",
+      "description": "Biskuit renyah seperti chocolate chip atau oatmeal.",
+      "price": 20,
+      "image": "cookies.webp"
+    },
+    {
+      "name": "Donat",
+      "description": "Camilan berbentuk cincin atau bulat, sering diberi topping atau isian.",
+      "price": 30,
+      "image": "donut.webp"
+    },
+    {
+      "name": "Sandwich",
+      "description": "Roti isi dengan berbagai macam isian seperti daging, sayuran, dan keju.",
+      "price": 75,
+      "image": "sandwich.webp"
+    }
+
+  ],
+  "dessert": [
+    {
+      "name": "Waffle",
+      "description": "Hidangan pencuci mulut dengan topping manis seperti buah, sirup, atau es krim.",
+      "price": 75,
+      "image": "waffle.webp"
+    },
+    {
+      "name": "Pancake",
+      "description": "Hidangan pencuci mulut dengan topping manis seperti buah, sirup, atau es krim.",
+      "price": 75,
+      "image": "pancake.webp"
+    },
+    {
+      "name": "Pudding",
+      "description": "Hidangan penutup berlapis seperti puding atau parfait dengan yoghurt atau custard.",
+      "price": 45,
+      "image": "pudding.webp"
+    },
+    {
+      "name": "Parfait",
+      "description": "Hidangan penutup berlapis seperti puding atau parfait dengan yoghurt atau custard.",
+      "price": 45,
+      "image": "parfait.webp"
+    },
+    {
+      "name": "Ice Cream",
+      "description": "Es krim yang disajikan dalam cangkir atau cone, dengan berbagai pilihan rasa.",
+      "price": 45,
+      "image": "ice-cream.webp"
+    },
+    {
+      "name": "Gelato",
+      "description": "Es krim yang disajikan dalam cangkir atau cone, dengan berbagai pilihan rasa.",
+      "price": 45,
+      "image": "gelato.webp"
+    }
+  ],
+  "special_menu": [
+    {
+      "name": "Pumpkin Spice Latte",
+      "description": "Perpaduan kopi espresso, susu, sirup labu, dan rempah-rempah seperti kayu manis, pala, cengkeh, dan jahe.",
+      "event": "Musim gugur, Halloween",
+      "price": 50,
+      "image": "pumpkin-spice-latte.webp"
+    },
+    {
+      "name": "Peppermint Mocha",
+      "description": "Espresso, susu, cokelat, dan sirup peppermint, memberikan nuansa liburan yang menyenangkan.",
+      "event": "Natal, musim dingin",
+      "price": 60,
+      "image": "peppermint-mocha.webp"
+    },
+    {
+      "name": "Rose Latte",
+      "description": "Latte dengan sirup mawar yang menghasilkan rasa floral lembut dan aroma wangi.",
+      "event": "Hari Valentine, acara romantis",
+      "price": 50,
+      "image": "rose-latte.webp"
+    },
+    {
+      "name": "Salted Caramel Latte",
+      "description": "Espresso dengan sirup caramel dan sedikit garam laut, memberikan rasa manis dan asin yang khas.",
+      "event": "Musim gugur",
+      "price": 60,
+      "image": "salted-caramel.webp"
+    },
+    {
+      "name": "Cherry Blossom Latte",
+      "description": "Latte dengan sirup cherry blossom, rasa floral lembut yang identik dengan musim semi.",
+      "event": "Musim semi, cherry blossom",
+      "price": 60,
+      "image": "sakura-latte.webp"
+    },
+    {
+      "name": "Eggnog Latte",
+      "description": "Perpaduan espresso dengan eggnog, minuman khas Natal dengan rasa creamy dan spicy.",
+      "event": "Natal, musim dingin",
+      "price": 60,
+      "image": "eggnog.webp"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Maya",
+      "message": "Tempat ini sungguh nyaman untuk menikmati kopi sambil bekerja atau sekadar bersantai. Kopinya enak dan aromanya menggugah selera, benar-benar tempat favorit saya di kota ini!",
+      "image": "04.jpg"
+    },
+    {
+      "name": "Andi",
+      "message": "Barista di sini ramah dan tahu benar cara menyajikan kopi berkualitas. Setiap kunjungan selalu memberikan pengalaman yang berbeda, terutama dengan menu musiman yang kreatif!",
+      "image": "04.jpg"
+    },
+    {
+      "name": "Rika",
+      "message": "Saya bukan hanya datang untuk kopinya, tetapi juga untuk suasana dan pelayanannya. Setiap kunjungan ke Kedai Kopi serasa pulang ke rumah, tempat yang penuh kehangatan dan rasa autentik.",
+      "image": "03.jpg"
+    },
+    {
+      "name": "Budi",
+      "message": "Saya sangat menghargai dedikasi Kedai Kopi dalam menjaga kualitas setiap sajian. Dari espresso yang pekat hingga latte yang lembut, setiap rasa terasa sangat otentik dan memuaskan.",
+      "image": "01.jpg"
+    },
+    {
+      "name": "Sinta",
+      "message": "Kedai Kopi ini selalu jadi pilihan pertama saya untuk berkumpul bersama teman-teman. Dengan pilihan kopu dan camilan yang beragaim, suasananya sungguh menyenangkan dan bikin betah berlama-lama.",
+      "image": "04.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Peluncuran Menu Musim Gugur: Pumpkin Spice Latte Kembali Hadir!",
+      "description": "Menyambut musim gugur, kafe kami kembali menghadirkan Pumpkin Spice Latte, minuman favorit yang hanya tersedia saat musim gugur. Dengan perpaduan unik antara espresso, susu, dan bumbu khas labu, minuman ini akan membawa kehangatan dan suasana cozy di setiap tegukannya. Jangan lewatkan, karena menu spesial ini hanya tersedia dalam waktu terbatas!",
+      "image": "pumpkin-spice-latte.webp",
+      "date": "1 Oktober 2024"
+    },
+    {
+      "title": "Acara Live Music Setiap Sabtu Malam!",
+      "description": "Bagi pecinta musik, kafe kami kini menghadirkan live music setiap Sabtu malam mulai pukul 19.00! Nikmati suasana santai dan hidangan favorit Anda dengan iringan musik akustik dari musisi lokal. Datang bersama teman atau pasangan untuk malam yang penuh kehangatan dan hiburan.",
+      "image": "live-music.webp",
+      "date": "15 November 2024"
+    },
+    {
+      "title": "Promo Spesial Hari Kopi Internasional: Diskon 20% untuk Semua Menu Kopi!",
+      "description": "Dalam rangka Hari Kopi Internasional, kafe kami memberikan diskon 20% untuk semua menu kopi selama satu hari penuh! Kunjungi kafe kami pada tanggal 1 Oktober 2024 dan rayakan Hari Kopi Internasional dengan secangkir kopi favorit Anda. Promo berlaku untuk dine-in maupun take-away.",
+      "image": "discount-coffee.webp",
+      "date": "1 Oktober 2024"
+    },
+    {
+      "title": "Tren Kopi Dingin: Apa Bedanya Cold Brew, Iced Coffee, dan Nitro Coffee?",
+      "description": "Kopi dingin semakin populer, tetapi tahukah Anda perbedaan antara cold brew, iced coffee, dan nitro coffee? Artikel ini akan menjelaskan cara pembuatan, cita rasa, dan keunikan dari setiap jenis kopi dingin, serta memberi rekomendasi kapan waktu terbaik untuk menikmatinya. Cocok bagi pecinta kopi yang ingin tahu lebih banyak tentang minuman dingin ini!",
+      "image": "cold-coffee.webp",
+      "date": "20 Oktober 2024"
+    },
+    {
+      "title": "Tips Mengurangi Limbah: Cara Menikmati Kopi dengan Lebih Ramah Lingkungan",
+      "description": "Industri kopi semakin berfokus pada keberlanjutan. Temukan langkah-langkah sederhana untuk mengurangi limbah saat menikmati kopi, baik di kafe maupun di rumah. Dari memilih tumbler yang bisa dipakai ulang hingga menggunakan ampas kopi untuk pupuk tanaman, artikel ini membahas cara menjadi pencinta kopi yang lebih peduli lingkungan.",
+      "image": "reduce-waste.webp",
+      "date": "5 November 2024"
+    },
+    {
+      "title": "Mengenal Kopi dari Seluruh Dunia: Apa Saja Karakteristik Unik Kopi dari Berbagai Negara?",
+      "description": "Dari kopi Sumatera yang kaya akan rasa earthy hingga kopi Ethiopia yang fruity, setiap daerah penghasil kopi menawarkan cita rasa khas. Artikel ini mengajak pembaca berkeliling dunia melalui cangkir kopi, membahas karakteristik rasa kopi dari berbagai negara, dan memberikan insight tentang profil rasa yang mungkin sesuai dengan selera pembaca.",
+      "image": "world-coffee.webp",
+      "date": "28 November 2024"
+    }
+  ],
+  "team": [
+    {
+      "name": "John Doe",
+      "job": "Barista",
+      "image": "john_doe.webp"
+    },
+    {
+      "name": "Myra Weish",
+      "job": "Barista",
+      "image": "myra_weish.webp"
+    },
+    {
+      "name": "Tomy Alkinson",
+      "job": "Barista",
+      "image": "tomy_alkinson.webp"
+    },
+    {
+      "name": "Alicia Shepard",
+      "job": "Barista",
+      "image": "alicia_shepard.webp"
+    }
+  ]
+}
