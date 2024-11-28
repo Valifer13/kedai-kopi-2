@@ -1,6 +1,6 @@
 <!-- subheader -->
 <section id="subheader" class="jarallax text-light">
-    <img src="03_images/background/bg-8.jpg" class="jarallax-img" alt="">
+    <img src="03_images/background/{{ $image }}" class="jarallax-img" alt="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
