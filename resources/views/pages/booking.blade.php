@@ -3,7 +3,7 @@
 @section('title', 'Booking')
 
 @section('content')
-<x-page-header title="Booking Table" />
+<x-page-header title="Booking Table" image="booking.jpg" />
 
 <!-- content begin -->
 <div id="content" class="no-bottom no-top">

@@ -3,7 +3,7 @@
 @section('title', 'About')
 
 @section('content')
-<x-page-header title="Tentang Kami" />
+<x-page-header title="Tentang Kami" image="about.jpg" />
 
 <!-- content begin -->
 <div id="content" class="no-bottom no-top">
