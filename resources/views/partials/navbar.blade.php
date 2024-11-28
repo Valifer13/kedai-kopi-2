@@ -25,7 +25,7 @@
                                 <li><a href="/about">About</a>
                                     <ul>
                                         <li><a href="/about">About</a></li>
-                                        <li><a href="/gallery">Gallery</a></li>
+                                        <li><a href="/about/gallery">Gallery</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="/blog">Blog</a></li>
