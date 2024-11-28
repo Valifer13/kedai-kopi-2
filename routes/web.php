@@ -16,3 +16,8 @@ Route::get('/booking', function() {
     $menu = json_decode(file_get_contents(storage_path('data/data.json')), true);
     return view('pages.booking', ['data' => $menu]);
 })->name('booking');
+
+Route::get('/about', function() {
+    $menu = json_decode(file_get_contents(storage_path('data/data.json')), true);
+    return view('pages.about', ['data' => $menu]);
+})->name('about');
