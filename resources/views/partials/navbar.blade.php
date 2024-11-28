@@ -5,9 +5,9 @@
                     <div class="col-lg-12">
                         <!-- logo begin -->
                         <div id="logo">
-                            <a href="03_luxury-index.html">
-                                <img class="logo logo_dark_bg" src="03_images/logo.png" alt="">
-                                <img class="logo logo_light_bg" src="03_images/logo.png" alt="">
+                            <a href="/">
+                                <img class="logo logo_dark_bg" src="{{ asset('03_images/logo.png') }}" alt="">
+                                <img class="logo logo_light_bg" src="{{ asset('03_images/logo.png') }}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
