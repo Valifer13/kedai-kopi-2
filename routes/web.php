@@ -26,3 +26,8 @@ Route::get('/about/gallery', function() {
     $menu = json_decode(file_get_contents(storage_path('data/data.json')), true);
     return view('pages.gallery', ['data' => $menu]);
 })->name('gallery');
+
+Route::get('/blog', function() {
+    $menu = json_decode(file_get_contents(storage_path('data/data.json')), true);
+    return view('pages.blog', ['data' => $menu]);
+})->name('blog');
