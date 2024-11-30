@@ -9,7 +9,7 @@
                         E. info@redsystem.id<br>
                     </div>
                     <div class="col-lg-4 text-center">
-                        <img class="logo" src="03_images/logo.png" alt="">
+                        <img class="logo" src="{{ asset('03_images/logo.png') }}" alt="">
                     </div>
                     <div class="col-lg-4 text-lg-end text-center">
                         <div class="social-icons">

@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -26,3 +27,17 @@ Route::get('/about/gallery', function() {
     $menu = json_decode(file_get_contents(storage_path('data/data.json')), true);
     return view('pages.gallery', ['data' => $menu]);
 })->name('gallery');
+
+Route::get('/blog', function() {
+    $menu = json_decode(file_get_contents(storage_path('data/data.json')), true);
+    return view('pages.blog', ['data' => $menu]);
+})->name('blog');
+
+Route::get('/blog/details', function() {
+    return view('pages.blog-details');
+})->name('blog-details');
+
+Route::get('/contact', function() {
+    $menu = json_decode(file_get_contents(storage_path('data/data.json')), true);
+    return view('pages.contact', ['data' => $menu]);
+})->name('contact');
