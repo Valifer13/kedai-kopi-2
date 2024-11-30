@@ -26,10 +26,10 @@
                                 </div>
 
                                 <div class="post-text">
-                                    <h3><a href="03_luxury-blog-single.html">{{ $item['title'] }}</a>
+                                    <h3><a href="/blog/details">{{ $item['title'] }}</a>
                                     </h3>
                                     <p>{{ $item['description'] }}</p>
-                                    <a href="03_luxury-blog-single.html" class="btn-line">Baca Lebih</a>
+                                    <a href="/blog/details" class="btn-line">Baca Lebih</a>
                                 </div>
 
                             </div>
